@@ -1,0 +1,46 @@
+.shop-card .card {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 10px;
+}
+.shop-card .card img{
+    width: 100%;
+    height: 500px;
+}
+.shop-card .card h3 {
+    font-size: 18px;
+    color: #3c3838;
+}
+.shop-card .card .card-icons{
+   position: absolute;
+   top: 40%;
+   right: 0;
+   left: 0;
+   cursor: pointer;
+   transition: .5s ease-in-out;
+   transform: scale(0);
+   opacity: 0;
+}
+
+.shop-card .card:hover .card-icons{
+   position: absolute;
+   top: 40%;
+   right: 0;
+   left: 0;
+   cursor: pointer;
+   transition: .5s ease-in-out;
+   transform: scale(1.2);
+   opacity: 1;
+}
+
+.shop-card .card .card-icons svg{
+   margin: 0 15px;
+   font-size: 20px;
+   
+   
+}
+
+.shop-card .card .shop-price{
+    font-weight: 700;
+}

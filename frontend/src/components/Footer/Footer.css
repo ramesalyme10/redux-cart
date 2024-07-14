@@ -1,0 +1,36 @@
+
+.footer .footer-grid-4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footer .footer-tab ul{
+    list-style: none;
+}
+
+.footer .footer-tab ul li{
+    margin-bottom: 12px;
+}
+
+.footer .footer-tab ul h2{
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.footer .footer-tab ul li a{
+    text-decoration: none;
+    opacity: .9;
+    color: #000;
+}
+
+@media (max-width:768px) {
+    .footer .footer-grid-4{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,209 @@
+.home-page {
+  margin: 5rem 0 5rem 0;
+  cursor: pointer;
+}
+.home-page img {
+  width: 500px;
+  height: auto;
+  border-radius: 50px;
+}
+
+.home-page .home-page-content .home-description {
+  max-width: 450px;
+  opacity: 0.5;
+  margin: 15px 0 35px 0;
+}
+
+.home-page .home-page-content .summer {
+  font-size: 20px;
+  color: #bb2525;
+  text-transform: uppercase;
+}
+
+.home-page .home-page-content a {
+  display: inline-block;
+  text-decoration: none;
+  background: #000;
+  padding: 15px 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.home-page .home-page-content svg {
+  margin-left: 15px;
+}
+
+/* home-dropped  */
+
+.home-page .home-dropped {
+  margin: 5rem 0 8rem 0;
+  cursor: pointer;
+}
+
+.home-page .home-dropped .home-content p {
+  font-size: 40px;
+}
+
+.home-page .home-dropped .home-content h1 {
+  font-size: 65px;
+  letter-spacing: 5px;
+  font-weight: 700;
+}
+
+.home-page .home-page-image img,
+.home-page .home-page-image-3 img {
+  width: 100%;
+  margin-top: 2rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.home-page .home-page-image,
+.home-page .home-page-image-3 {
+  position: relative;
+}
+
+.home-page .home-page-image .home-page-title {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+.home-page .home-page-image-3 .home-page-title {
+  position: absolute;
+  top: 80%;
+  right: 0;
+  left: 0;
+  text-align: center;
+}
+
+.home-page .home-page-image .home-page-title p {
+  background: #fff;
+  color: #000;
+  padding: 5px;
+  max-width: 150px;
+  margin: auto;
+  font-weight: 700;
+}
+
+.home-page .home-page-image-3 .home-page-title p {
+  background: #fff;
+  color: #000;
+  padding: 5px;
+  max-width: 150px;
+  margin: auto;
+  font-weight: 700;
+}
+
+/* flash-sales */
+
+.home-page .flash-sales {
+  margin: 5rem 0 5rem 0;
+}
+
+.home-page .flash-sales h1 {
+  font-weight: 700;
+}
+
+.home-page .flash-sales .card {
+  margin: 10px;
+  background: #f0f0f0;
+}
+
+.home-page .flash-sales .card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+.home-page .flash-sales .card h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.home-page .flash-sales .card-body span {
+  margin-left: 15px;
+  font-weight: 700;
+}
+
+.home-page .flash-sales div {
+  margin-bottom: 2rem;
+}
+
+/* dress-sharp  */
+
+.dress-sharp .dress-content-image img {
+  width: 100%;
+  border-radius: 6px;
+}
+
+.dress-sharp .dress-content p {
+  opacity: 0.8;
+  line-height: 1.9;
+  max-width: 500px;
+  font-size: 20px;
+}
+.dress-sharp .dress-content button {
+  background-color: #000;
+  padding: 15px 40px;
+  border: 0;
+  color: #fff;
+  margin-top: 12px;
+}
+
+.dress-sharp .dress-content span {
+  font-size: 22px;
+  color: #575151;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* author fashion */
+.author-fashion .card {
+    position: relative;
+    overflow: hidden;
+    background: #e2fffa;
+}
+
+.author-fashion .card img{
+    border-radius: 6px;
+    transition: .3s ease-in-out;
+}
+.author-fashion .card img:hover{
+    border-radius: 6px;
+    transition: .3s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+
+
+
+.author-fashion .card .card-body{
+    padding: 3rem;
+}
+
+.author-fashion .card .card-body h3{
+    color: #3a3636;
+    font-size: 31px;
+    font-weight: 700;
+}
+
+.author-fashion .card .card-body p{
+    opacity: .8;
+    margin: 1rem 0 1rem 0;
+}
+
+.author-fashion .card .card-body a{
+    text-decoration: none;
+    color: #1d1c1c;
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+
+
+
